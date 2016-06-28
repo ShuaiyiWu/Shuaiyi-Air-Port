@@ -8,4 +8,5 @@ write-host "Today is Jun 24th"
 write-host "help yourself !"
 
 $temp = $ParameterDictionary.environment.repositoryRoot
-write-host $temp
+write-host "repositoryRoot: $temp"
+write-host "read from $ParameterDictionary"
