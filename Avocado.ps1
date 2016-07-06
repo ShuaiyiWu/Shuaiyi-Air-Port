@@ -4,3 +4,5 @@ param (
 )
 
 write-host "I like Avocado with milk mix"
+
+exit $LASTEXITCODE
