@@ -4,5 +4,6 @@ param (
 )
 
 write-host "I like Avocado with milk mix"
+write-host "Test url download successfully"
 
 exit $LASTEXITCODE
