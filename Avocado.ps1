@@ -11,6 +11,6 @@ $reportFilePath = $ParameterDictionary.environment.logFile
 write-host "I like Avocado with milk mix"
 write-host "Test url download successfully"
 
-LogVerbose -logFilePath $reportFilePath -message "Log warning test" -source $source -line $lineNumber
+LogWarning -logFilePath $reportFilePath -message "Log warning test" -source $source -line $lineNumber
 
 exit $LASTEXITCODE
